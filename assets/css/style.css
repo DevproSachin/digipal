@@ -1,0 +1,530 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+*{
+    font-family: Poppins-Regular;
+}
+.h3, .h4, .h5, .h6, h4, h6 {
+    font-family: Poppins-SemiBold;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar-nav.ml-auto.ai-nav-inner {
+    float: right !important;
+}
+.carousel-bg-img {
+    height: 100vh;
+    width: 100%;
+    min-height: 500px;
+	filter: brightness(0.8);
+}
+.navbar-brand img {
+    width: 106px;
+    height: 100%;
+    margin-left: 59px;
+}
+
+/**.ai-logo-none{
+    display: none;
+}**/
+.ai-navbar.active .ai-logo-none{
+    display: block;
+}
+.ai-navbar .nav-link {
+    color: #fff;
+    font-size: 14px;
+}
+.ai-navbar.active .nav-link {
+    color: #013a7b;
+}
+.ai-navbar .nav-item {
+    padding-right: 30px;
+}
+.ai-navbar.active {
+    background: #fff;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border-bottom: 2px solid #013a7b;
+}
+/*.ai-navbar.active.ai-navbar-with-logo{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}*/
+.navbar-toggler-icon {
+    width: 30px;
+    height: 4px;
+    background: #013a7b;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 3px;
+}
+.navbar-toggler-icon:last-child{
+    margin-bottom: 0px;
+}
+.carousel-indicators button.ai-slide-label {
+    text-indent: 0px;
+    background-color: transparent !important;
+}
+.ai-carousel-caption {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)anslate;
+    width: 100%;
+    bottom: auto;
+}
+.carousel-indicators {
+    bottom: 90px !important;
+}
+.ai-slide-label.link-light.bg-light {
+    opacity: 1 !important;
+}
+.ai-slide-label.active::after {
+    content: '';
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin: 0 auto;
+}
+.ai-slide-label {
+    font-size: 21px;
+    width: 50px !important;
+}
+.ai-pd-top {
+    padding-top: 100px;
+}
+.ai-pd-bottom {
+    padding-bottom: 100px;
+}
+#why-choose-us.ai-pd-bottom {
+    padding-bottom: 0px;
+}
+.ai-sub-title {
+    color: #07D4DA !important;
+    font-size: 18px;
+}
+.ai-tilte{
+    color: #013A7B;
+    font-size: 28px;
+}
+.ai-bg-img-about-us-section-first {
+    background: url('../images/Picture-A.jpg');
+    height: 250px;
+    background-size: cover;
+}
+.ai-bg-img-about-us-section-second {
+    background: url('../images/Group-33.jpg');
+    height: 250px;
+    background-size: cover;
+}
+.ai-bg-img-about-us-section-third {
+    background: url('../images/Group-34.jpg');
+    height: 250px;
+    background-size: cover;
+}
+.ai-box-position {
+    position: relative;
+    overflow: hidden;
+}
+.ai-box-position img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.about-inner-full-img:hover {
+    width: 105% !important;
+    margin-left: -30px;
+    transition: transform .5s;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+.text-center.about-inner-title {
+    margin: 30px 0 20px;
+    color: #000C23;
+}
+.text-center.about-inner-decription {
+    color: #656565;
+}
+.text-center.about-inner-decription b {
+    color: #000C23;
+}
+.ai-btn.btn.btn-primary {
+    background: #013A7B;
+    letter-spacing: 4px;
+    padding: 12px 40px;
+    font-size: 16px;
+    border: none;
+}
+.ai-btn.btn.btn-primary:focus {
+    box-shadow: unset;
+}
+.ai-btn.btn.btn-primary:hover {
+    background: #000C23;
+    border-color: #000C23;
+}
+.ai-service-container {
+    background: url('../images/Subtraction 2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 80px 0;
+    background-position: bottom;
+}
+/*.ai-service-title {
+    padding-bottom: 35px;
+}*/
+#services p {
+    color: #656565;
+}
+.ai-service-btn {
+    padding: 0;
+    color: #000C23;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.ai-service-btn img {
+    margin-left: 15px;
+}
+.ai-service-bottom-icon img {
+    width: 110px;
+    height: 100%;
+    margin: -28px auto 0;
+}
+.col-6.ai-service-pd-top {
+    padding-top: 100px;
+}
+.ai-service-btn.btn:hover {
+    color: #013A7B;
+}
+
+.ai-env-pd {
+    padding-top: 85px;
+    padding-bottom: 80px;
+}
+.ai-env {
+    position: relative;
+}
+.ai-env img {
+    position: absolute;
+    right: 0;
+    bottom: -11px;
+}
+.about-inner-env {
+    color: #013A7B;
+}
+form.Digi-contact {
+    width: 50%;
+    margin: 0 auto;
+}
+#contact-us label {
+    color: #000C23;
+    opacity: 50%;
+}
+.form-control::placeholder {
+    color: #000C23;
+    opacity: 50%;
+}
+button.sbmit.btn.btn-link.text-decoration-none {
+    background: #013A7B;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+}
+.footer {
+    background: #494F55;
+    color: #fff;
+}
+.footer-top {
+    padding: 80px 0 70px;
+}
+.footer-top p{
+    font-size: 15px;
+}
+.footer-bottom{
+    background: #575d62;
+}
+.footer-bottom .container {
+    padding: 15px 0px;
+}
+.footer-center-box {
+    max-width: 200px;
+}
+.ai-social-icon .list-inline-item i{
+    background: #ffffff17;
+    padding: 15px;
+    width: 45px;
+    text-align: center;
+}
+.ai-social-icon .list-inline-item i:hover {
+    background: #ffffff10;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.footer-bottom a, .footer-bottom p {
+    font-size: 14px;
+    color: #fff;
+    opacity: 70%;
+}
+#contact-us input, #contact-us textarea {
+    background: #F5F7FA !important;
+    border-color: #013A7B1A;
+}
+.mn {
+    background-color: #fff;
+}
+.mn:hover {
+    background-color: #013A7B;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    color: #fff;
+}
+.mn:hover h5 {
+    color: #fff;
+}
+.ai-clients img:hover {
+    transition: 0.1s;
+    transform: translatey(-10px);
+}
+.bgimage {
+    width:100%;
+    height:500px;
+    background: url('../images/portal-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.bgimage h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+}
+.client-portal.ai-carousel-caption {
+    top: 40%;
+}
+.last-item-nav a.nav-link {
+    background: #013A7B;
+    padding: 12px 40px;
+	color:#fff !important;
+}
+.last-item-nav a.nav-link {
+    background: #013A7B;
+    padding: 12px 45px !important;
+}
+.search {
+    width: 70%;
+    margin-bottom: auto;
+    margin-top: -2px;
+    height: 48px;
+    background-color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    caret-color: #536bf6;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear
+}
+
+.search-icon {
+    height: 34px;
+    width: 34px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #013a7b;;
+    font-size: 10px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px
+}
+
+.search-icon:hover {
+    color: #fff !important
+}
+a.search-icon {
+    text-decoration: none;
+}
+/**button.ai-btn-second {
+    background: #000C23;
+    color: #fff;
+    letter-spacing: 2px;
+}
+button.ai-btn-second:hover {
+    background-color: #013a7b;
+    color: #fff;
+}**/
+button.ai-btn-second {
+    color: grey;
+}
+span.request-accnt {
+    color: #07D1D8;
+}
+.frm-bg-cl {
+    background-color: #F3F6F9;
+}
+.ai-forgot-pwd {
+    color: #656565;
+}
+
+.ai-remmber {
+    color: #656565;
+}
+.ai-sub-title-client-portal{
+    color: #013A7B;
+}
+.ai-tilte-client-portal {
+    color: #656565;
+}
+input#floatingText\ client-login-form-fillup {
+    background: #fff !important;
+}
+input#floatingPassword\ client-login-form-fillup\ {
+    background: #fff !important;
+}
+/**#search-form-header input[type=text] {
+  width: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    background-image: url(../images/search.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 14px 5px 34px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#search-form-header  input[type=text]:focus {
+  width: 50%;
+}**/
+
+@media screen and (min-width: 992px) {
+    .collapse.navbar-collapse {
+        display: block !important;
+    }   
+}
+@media screen and (max-width: 991px) {
+    .ai-navbar .nav-link {
+        color: #013a7b;
+        font-size: 16px;
+    }
+    .ai-navbar {
+        padding: 15px 0 !important;
+        background: #fff;
+    }
+    .ai-navbar.active {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    .ai-navbar .ai-logo-none{
+        display: block;
+    }
+    .ai-navbar{
+        border-bottom: 2px solid #013a7b;
+    }
+    .navbar-nav.ml-auto.ai-nav-inner {
+        float: unset !important;
+        padding: 10px 15px 0;
+    }
+    #navbar button.navbar-toggler:focus {
+        box-shadow: unset;
+    }
+    .ai-navbar.active .ai-logo-none {
+        display: block;
+        padding-right: 25px !important;
+    }
+	.search {
+    width: 94%;
+    margin-bottom: auto;
+    margin-top: 15px;
+    height: 48px;
+    background-color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+	.footer-center-box {
+    max-width: unset;
+}
+.footer-top {
+    padding: 80px 20px 70px;
+}
+form.Digi-contact {
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-bottom {
+    padding: 0px 29px;
+    text-align: center;
+}
+.footer-bottom p.m-0 {
+    text-align: center;
+}
+	html {
+    overflow-x: hidden;
+}
+    body {
+    overflow-x: hidden;
+}
+.ut img {
+    width: 100%;
+    margin-top: 54px;
+}
+.mn {
+    margin-bottom: 20px;
+}
+form.Digi-contact.frm-bg-cl {
+    padding: 17px !important;
+}
+.ai-forgot-pwd {
+    color: #656565;
+    font-size: 13px;
+}
+button.ai-btn-second {
+    font-size: 14px;
+}
+.ai-service-container {
+    padding: 0px 0;
+}
+.client-portal.ai-carousel-caption {
+    top: 40%;
+}
+}
+@media screen and (max-width: 575px) {
+    .ai-pd-top, .ai-pd-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <title>DigiPal</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar" class="ai-navbar navbar navbar-expand-lg fixed-top py-3 ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand ai-logo-none px-3" href="index.html"><img src="assets/images/logo.png"></a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav ml-auto ai-nav-inner">
+                            <li class="nav-item active"><a href="#about-us" class="nav-link text-capitalize font-weight-bold">About<span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link text-capitalize font-weight-bold">Services</a></li>
+                            <li class="nav-item"><a href="#why-choose-us" class="nav-link text-capitalize font-weight-bold">Why Choose Us</a></li>
+                            <li class="nav-item"><a href="#insights" class="nav-link text-capitalize font-weight-bold">Insights</a></li>
+                            <li class="nav-item"><a href="#contact-us" class="nav-link text-capitalize font-weight-bold">Contact</a></li>
+                            <li class="nav-item last-item-nav"><a href="portal.html" class="nav-link text-capitalize font-weight-bold">Portal</a></li>
+                             <!-- <form class="form-inline">
+                                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                               </form>-->
+							   <div class="nav-search">
+							   <div class="search"> <input type="text" class="search-input" placeholder="Search..." name=""> <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a> </div>
+                               </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active ai-slide-label link-light bg-light" aria-current="true" aria-label="Slide 1">01</button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="ai-slide-label link-light bg-light" aria-label="Slide 2">02</button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="ai-slide-label link-light bg-light" aria-label="Slide 3">03</button>
+					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="ai-slide-label link-light bg-light" aria-label="Slide 4">04</button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="carousel-bg-img" src="assets/images/sl-1.jpg" class="d-block w-100" alt="...">
+                        <div class="ai-carousel-caption carousel-caption align-items-center">
+                            <img src="assets/images/logo.png" alt="" width="200px">
+                            <h2 class="link-light display-4 fw-bold pt-4 pb-5">Investment content delivered</h2>
+                            <a type="button" href="#services" class="ai-btn btn btn-primary text-uppercase btn-lg border-0">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img class="carousel-bg-img" src="assets/images/slider-2.jpg" class="d-block w-100" alt="...">
+                        <div class="ai-carousel-caption carousel-caption align-items-center">
+                            <img src="assets/images/logo.png" alt="" width="200px">
+                            <h2 class="link-light display-4 fw-bold pt-4 pb-5">Investment content delivered</h2>
+                            <a type="button" href="#services" class="ai-btn btn btn-primary text-uppercase btn-lg border-0">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img class="carousel-bg-img" src="assets/images/slider-3.jpg" class="d-block w-100" alt="...">
+                        <div class="ai-carousel-caption carousel-caption align-items-center">
+                            <img src="assets/images/logo.png" alt="" width="200px"/>
+                            <h2 class="link-light display-4 fw-bold pt-4 pb-5">Investment content delivered</h2>
+                            <a type="button" href="#services" class="ai-btn btn btn-primary text-uppercase btn-lg border-0">Learn more</a>
+                        </div>
+                    </div>
+					<div class="carousel-item" data-bs-interval="10000">
+                        <img class="carousel-bg-img" src="assets/images/slider-4.jpg" class="d-block w-100" alt="...">
+                        <div class="ai-carousel-caption carousel-caption align-items-center">
+                            <img src="assets/images/logo.png" alt="" width="200px"/>
+                            <h2 class="link-light display-4 fw-bold pt-4 pb-5">Investment content delivered</h2>
+                            <a type="button" href="#services" class="ai-btn btn btn-primary text-uppercase btn-lg border-0">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <!--                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>-->
+            </div>
+        </header>
+        <section id="about-us" class="ai-pd-top">
+            <div class="container ">
+                <div class="row align-items-center">
+                    <div class="col-sm">
+                        <h5 class="text-center ai-sub-title text-info">About Us</h5>
+                        <h4 class="text-center ai-tilte fw-bold">Keep your clients engaged in an increasingly digital world</h4>
+                    </div>
+                </div>
+                <div class="row gx-5 pt-5 pb-5">
+                    <div class="col-sm-4 text-center p-3">
+                        <div>
+                            <div class="ai-box-position ai-bg-img-about-us-section-first">
+                                <img class="about-inner-full-img" src="assets/images/Picture-A.jpg" alt=""/>
+                                <img src="assets/images/Group 35.svg" alt=""/>
+                            </div>
+                            <h5 class="text-center about-inner-title fw-bold">Why to engage ?</h5>
+                            <p class="text-center about-inner-decription">Most of the <b>value is gathered over time</b> through continuous client engagement</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center p-3">
+                        <div>
+                            <div class="ai-box-position ai-bg-img-about-us-section-second">
+                                <img class="about-inner-full-img" src="assets/images/Group-33.jpg" alt=""/>
+                                <img src="assets/images/Group 35.svg" alt=""/>
+                            </div>
+                            <h5 class="text-center about-inner-title fw-bold">What is changing ?</h5>
+                            <p class="text-center about-inner-decription">Digital transformation drives the client needs for <b>personalization and transparency</b></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center p-3">
+                        <div>
+                            <div class="ai-box-position ai-bg-img-about-us-section-third">
+                                <img class="about-inner-full-img" src="assets/images/Group-34.jpg" alt=""/>
+                                <img src="assets/images/Group 35.svg" alt=""/>
+                            </div>
+                            <h5 class="text-center about-inner-title fw-bold">What is the way forward ?</h5>
+                            <p class="text-center about-inner-decription"><b>Build trust and stronger relationships </b>through targeted insights</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="d-grid gap-2">
+                        <a href="#" class="ai-btn btn btn-primary text-uppercase btn-lg" type="button">Timely and relevant content for every client</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="ai-service-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 ai-service-pd-top pe-5 pt-5">
+                        <h5 class="text-left ai-sub-title ai-service-title text-info">Services</h5>
+                        <h4 class="text-left ai-tilte fw-bold pb-4">Make investment communication simple and seamless</h4>
+                        <p class="pb-3">Engage clients through timely and enjoyable updates, delivered in a compelling format that can be leveraged across multiple channels.</p>
+                        <p class="pb-3">digipal<sup>TM</sup> transforms your investment communication into a powerful digital experience, designed to enhance the customer journey and your brand.</p>
+                        <a href='#contact-us' class="ai-service-btn btn btn-link text-decoration-none  ">Learn More About Us <img src="assets/images/right-arrow-1.png" alt="" width="28px"/></a>                         
+                    </div>
+                    <div class="col-sm-6 text-end ut">
+                        <img src="assets/images/Untitled-1-Recovered.png" alt="" width="400px"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container ai-service-bottom-icon">
+                <div class="row">
+                    <img src="assets/images/Path 28.svg" width="100px" height="100%">
+                </div>
+            </div>
+        </section>
+        <section id="why-choose-us" class="ai-pd-top ai-pd-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm">
+                        <h5 class="text-center ai-sub-title text-info">Why choose Us</h5>
+                        <h4 class="text-center ai-tilte fw-bold">We're trusted by clients</h4>
+                    </div>
+                </div>
+                <div class="row gx-5 pt-5 pb-5">
+                    <div class="col-sm-4 text-center p-3">
+                        <div>
+                            <div class="ai-clients">
+                                <img src="assets/images/Digital experience.svg" alt=""/>
+                            </div>
+                            <h5 class="text-center about-inner-title fw-bold">Digital experience</h5>
+                            <p class="text-center about-inner-decription">Providing clients with personalized and comprehensive information about their investments.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center p-3">
+                        <div>
+                            <div class="ai-clients">
+                                <img src="assets/images/investment.svg" alt=""/>
+                            </div>
+                            <h5 class="text-center about-inner-title fw-bold">Investment know-how</h5>
+                            <p class="text-center about-inner-decription">Expertise across asset classes and geographies, extending over multiple market cycles.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center p-3">
+                        <div>
+                            <div class="ai-clients">
+                                <img src="assets/images/time to market.svg" alt=""/>
+                            </div>
+                            <h5 class="text-center about-inner-title fw-bold">Time-to-market</h5>
+                            <p class="text-center about-inner-decription">Timely delivery of investment content in-line with our clients’ processes and publication cycles.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- changing environment section-->
+        <section id="insights" class="ai-pd-top ai-pd-bottom bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm">
+                        <h5 class="text-center ai-sub-title text-info">Insights</h5>
+                        <h4 class="text-center ai-tilte fw-bold">A changing environment</h4>
+                    </div>
+                </div>
+                <div class="row gx-5 pt-5 pb-5">
+                    <div class="col-sm-4 text-left">
+                        <div class="mn p-3 pb-5">
+                            <p class="text-left about-inner-decription lh-lg">“You should constantly remind your customers about their intention and the goals they wanted to achieve when they bought your product.”</p>
+                            <h5 class="text-left about-inner-env fw-bold pt-5">Why to engage?</h5>
+                            <div class="ai-env">
+                                <img src="assets/images/Group 29.svg" alt=""/>
+                                <img src="assets/images/Hover.png" alt=""/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 text-left">
+                        <div class="mn  p-3 pb-5">
+                            <p class="text-left about-inner-decription lh-lg"> “Rising expectations for personalization fuel the emergence of niche competitors."<br><br><br><br></p>
+                            <h5 class="text-left about-inner-env fw-bold pt-3">What is changing?</h5>
+                            <div class="ai-env">
+                                <img src="assets/images/Group 29.svg" alt=""/>
+                                <img src="assets/images/Hover.png" alt=""/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 text-left ">
+                        <div class="mn  p-3 pb-5 ">
+                            <p class="text-left about-inner-decription lh-lg"> “Speak in the language of the client. Clients trust what they understand.”<br><br><br></p>
+                            <h5 class="text-left about-inner-env fw-bold pt-5">What is the way forward?</h5>
+                            <div class="ai-env">
+                                <img src="assets/images/Group 29.svg" alt=""/>
+                                <img src="assets/images/Hover.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row gx-5 pt-1 pb-1">
+                    <div class="col-sm-4 text-left">
+                        <div class="mn  p-3 pb-5 ">
+                            <p class="text-left about-inner-decription lh-lg">“Engagement is the proof that you value your clients’ success and work hard to deliver more.”<br><br></p>
+                            <h5 class="text-left about-inner-env fw-bold pt-5">Why to engage?</h5>
+                            <div class="ai-env">
+                                <img src="assets/images/Group 29.svg" alt=""/>
+                                <img src="assets/images/Hover.png" alt=""/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 text-left">
+                        <div class="mn  p-3 pb-5 ">
+                            <p class="text-left about-inner-decription lh-lg">“Digital marketplaces offer customers a greater range of options. Incumbent players are faced with greater transparency provided by digital platforms.”<br><br></p>
+                            <h5 class="text-left about-inner-env fw-bold pt-3">What is changing?</h5>
+                            <div class="ai-env">
+                                <img src="assets/images/Group 29.svg" alt=""/>
+                                <img src="assets/images/Hover.png" alt=""/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 text-left">
+                        <div class="mn  p-3 pb-5 ">
+                            <p class="text-left about-inner-decription lh-lg"> “Today’s consumer, although hi-tech, is also hi-touch in terms of expecting the interactions to be more personal and more customized, not less.”</p>
+                            <h5 class="text-left about-inner-env fw-bold pt-5">What is the way forward?</h5>
+                            <div class="ai-env">
+                                <img src="assets/images/Group 29.svg" alt=""/>
+                                <img src="assets/images/Hover.png" alt=""/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end changing environment section-->
+
+        <!--contact form section -->
+        <section id="contact-us" class="contact-form ai-pd-top ai-pd-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm">
+                        <h5 class="text-center ai-sub-title text-info">Contact</h5>
+                        <h4 class="text-center ai-tilte fw-bold pb-3">Send us a message</h4>
+
+                        <form class="Digi-contact pt-3" action="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingText" placeholder="Name">
+                                <label for="floatingText">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email Address</label>
+                            </div> 
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control" id="floatingPhone" placeholder="Password">
+                                <label for="floatingPhone">Phone Number</label>
+                            </div> 
+                            <div class="mb-4"> 
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="ai-btn btn btn-primary text-uppercase btn-lg">CONTACT US</button>
+                                </div>
+                            </div>			   
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer-top">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <h3 class="pb-2">Need a pal to go digital ?</h3>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="mx-auto footer-center-box">
+                            <h3 class="pb-2">Contact Us</h3>
+                            <p>digipal AG <br>Hagenholzstrasse 83B <br>CH-8050 Zurich</p>
+                            <p>
+                                <a class="link-light text-decoration-none" href="mailto:Info@digipal.ch">info@digipal.ch</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <ul class="list-unstyled list-inline ai-social-icon m-0">
+                            <li class="list-inline-item"><a class="link-light" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a class="link-light" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a class="link-light" href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a class="link-light" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled list-inline m-0">
+                                <li class="list-inline-item"><a class="text-capitalize text-decoration-none link-light" href="#about-us">About</a></li>
+                                <li class="list-inline-item"><a class="text-capitalize text-decoration-none link-light" href="#services">Services</a></li>
+                                <li class="list-inline-item"><a class="text-capitalize text-decoration-none link-light" href="#insights">Insights</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                            <p class="m-0"">All rights reserved for digipal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--end contact form -->
+        <script>
+            $(document).ready(function () {
+                $(window).on('scroll', function () {
+                    if ($(window).scrollTop() > 10) {
+                        $('.navbar').addClass('active');
+                    } else {
+                        $('.navbar').removeClass('active');
+                    }
+                });
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    </body>
+</html>
